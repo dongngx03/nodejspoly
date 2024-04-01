@@ -1,8 +1,8 @@
 import { Router } from "express";
-import routeBlog from "./blog";
-import routeProduct from "./product";
-import routeCategory from "./category";
-import routeAuth from "./auth";
+import routeBlog from "./blog/index.js";
+import routeProduct from "./product/index.js";
+import routeCategory from "./category/index.js";
+import routeAuth from "./auth/index.js";
 
 const route = Router();
 

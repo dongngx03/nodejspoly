@@ -1,6 +1,6 @@
 import { Router } from "express";
-import ProductController from "../../controllers/ProductConntroller";
-import CheckPermision from "../../middleware/CheckPermission";
+import ProductController from "../../controllers/ProductConntroller.js";
+import CheckPermision from "../../middleware/CheckPermission.js";
 
 const routeProduct = Router();
 routeProduct.post('/', ProductController.create)
