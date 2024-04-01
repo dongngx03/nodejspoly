@@ -1,5 +1,5 @@
-import User from "../models/User"
-import validateAuth from "../validations/auth"
+import User from "../models/User.js"
+import validateAuth from "../validations/auth.js"
 import bcrypt from "bcryptjs"
 import jwt from "jsonwebtoken"
 
